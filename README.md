@@ -1,1 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2AGu9A8s)
+# Software Engineer Portfolio Page — Edward Yunkian Janitra
+---
+
+## Overview
+This is a personal portfolio page of Edward Yunkian Janitra as a beginner in Software Engineering. It is divided into 4 sections: home, about me, projects, and contact me section.
+
+## Features
+1. Navigation: at the top of page to quickly jump to different section of the page.
+2. Home: you can see my profile picture, brief introduction to my website, and the links to my socials.
+3. About Me: highlighting my work experiences, education, skills and interests.
+4. Projects: showcasing all the software engineering projects that I've done.
+5. Contact Me: inquiry form where you can send me your name and email, and send me a message directly.
+
+## Live URL
+link placeholder
+
+## Technologies Used
+- HTML5 using Visual Studio Code: Semantic markup and page structuring
+- Github: for deployment of the website

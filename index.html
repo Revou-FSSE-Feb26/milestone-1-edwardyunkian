@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Yunkian's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <hr>
+        <h1>Edward Yunkian Janitra</h1>
+    </header>
+    <main>
+        <section id="home">
+            <img src="Headshot.JPG" alt="My Profile Picture">
+            <h2>Hi! My name is Edward, an aspiring Software Engineer who recently just started his learning journey.</h2>
+            <p>Although I'm still new here, I'm eager to build my foundation through continuous learning, while also doing projects and gaining more experiences to grow my portfolio. <br>I will keep updating my projects here. In the meantime, you can also get in touch with me through my socials below!</p>
+            <a href="mailto:edwardyunkian@gmail.com">Gmail</a>
+            <a href="https://www.linkedin.com/in/edwardyunkian/">Linkedin</a>
+            <a href="https://github.com/edwardyunkian">Github</a>
+            <hr>
+        </section>
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <ul>
+                <li><h3>Work Experiences</h3></li>
+                <ul class="circle">
+                    <li><strong>New Product Development Associate at PT Sayap Mas Utama (WINGS Group)</strong> (Nov 2023 - July 2025)</li>
+                    <li><strong>Organization Development Intern at Bosch (China) Investment Ltd.</strong> (December 2022 - May 2023)</li>
+                    <li><strong>Astra LearnFest & KM Expo 2022 Project Management Intern</strong> (May 2022 - August 2022)</li>
+                </ul>
+                <li><h3>Education</h3></li>
+                <ul class="circle">
+                    <li><strong>Master of International Business at East China Normal University</strong> (Aug 2021 - June 2023)</li>
+                    <li><strong>Bachelor of Chemical Engineering at Parahyangan Catholic University (UNPAR)</strong> (Aug 2016 - Mar 2021)</li>
+                </ul>
+                <li><h3>Skills</h3></li>
+                <ul class="circle">
+                    <li><strong>Computer Skills:</strong> HTML, Excel (Pivot Table, VLOOKUP), PowerPoint, Power BI.</li>
+                    <li><strong>Design:</strong> Adobe Photoshop, Premiere, Audition, Adobe Illustration.</li>
+                    <li><strong>Language:</strong> Bahasa Indonesia (native), English, Chinese (HSK3).</li>
+                </ul>
+                <li><h3>Interests</h3></li>
+                <ul class="circle">
+                    <li>Classical Music</li>
+                    <li>Animated & Live-Action Films</li>
+                    <li>Photography</li>
+                    <li>Drawing</li>
+                </ul>
+            </ul> 
+            <hr>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p><i>Future projects will be coming!</i> &#128516;</p>
+            <hr>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>    
+                <fieldset>
+                    <legend><b>Personal Information</b></legend>
+                    <label for="name">Full Name: </label><br>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required><br><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+                    <label>Preffered Contact Method:</label><br>
+                    <input type="checkbox" name="contact-method" id="email" value="email">
+                    <label for="email">Email</label><br>
+                    <input type="checkbox" name="contact-method" id="whatsapp" value="whatsapp">
+                    <label for="whatsapp">Whatsapp</label><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><b>Your Message</b></legend>
+                    <label for="reason">Reason for Reaching Out:</label><br>
+                    <select name="reason" id="reason" required> 
+                        <option value="">--- Select Reason ---</option>
+                        <option value="product-service">Product/Service Inquiry</option>
+                        <option value="partner-collab">Partnership/Collaboration</option>
+                        <option value="feedback">Feedback/Suggestion</option>
+                        <option value="others">Others</option>
+                    </select><br><br>
+                    <label for="message">What do you want to discuss?</label><br>
+                    <textarea rows="4" cols="100" name="message" id="message" required placeholder="Write down your thoughts here..."></textarea><br>
+                </fieldset><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&#169; 2026 Edward Yunkian Janitra</p>
+    </footer>
+</body>
+</html>
