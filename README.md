@@ -14,6 +14,10 @@ This is a personal portfolio page of Edward Yunkian Janitra as a beginner in Sof
 ## Live URL
 https://revou-fsse-feb26.github.io/milestone-1-edwardyunkian/
 
+## Run Locally
+1. Clone or download repository
+2. Open `index.html` in your web browser to open the page, or use Live Server extension in Visual Studio Code.
+
 ## Technologies Used
 - HTML5 using Visual Studio Code: Semantic markup and page structuring
 - Github: for deployment of the website
