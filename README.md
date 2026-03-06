@@ -12,7 +12,7 @@ This is a personal portfolio page of Edward Yunkian Janitra as a beginner in Sof
 5. Contact Me: inquiry form where you can send me your name and email, and send me a message directly.
 
 ## Live URL
-link placeholder
+https://revou-fsse-feb26.github.io/milestone-1-edwardyunkian/
 
 ## Technologies Used
 - HTML5 using Visual Studio Code: Semantic markup and page structuring
