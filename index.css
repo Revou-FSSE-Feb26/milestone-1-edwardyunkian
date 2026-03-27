@@ -131,6 +131,12 @@ nav a{
     flex: 1 1 calc(33.333% - 2rem);
     min-height: 200px;
     min-width: 300px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #FFD6EF;
 }
 
 #contact{
