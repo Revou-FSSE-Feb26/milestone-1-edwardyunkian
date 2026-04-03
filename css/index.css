@@ -86,7 +86,8 @@ nav a{
 }
 
 .home-text img{
-    height: 20px;
+    height: 24px;
+    margin-right: 0.3rem;
 }
 
 .home-text h2{
